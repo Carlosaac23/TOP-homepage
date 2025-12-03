@@ -6,4 +6,29 @@ html {
 
 body {
   font-family: Roboto, sans-serif;
+  background-color: #ededed;
+  color: #1f1f1f;
+}
+
+.header {
+  padding: 2.6rem;
+  position: relative;
+}
+
+.header__img {
+  width: 100%;
+  filter: brightness(0.6);
+  border-radius: 0.6rem;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+
+.name {
+  font-family: 'Playfair Display', serif;
+  font-size: 5rem;
+  position: absolute;
+  bottom: 2rem;
+  left: 50%;
+  transform: translateX(-75%);
+  width: auto;
+  color: #ededed;
 }
