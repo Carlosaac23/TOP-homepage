@@ -32,3 +32,22 @@ body {
   width: auto;
   color: #ededed;
 }
+
+.bg-figure {
+  width: 56rem;
+  height: 50rem;
+  background-color: #0e7490;
+  transform: rotate(-45deg);
+  position: absolute;
+  top: -20rem;
+  left: -26rem;
+  z-index: -1;
+}
+
+.about__social-container {
+  display: flex;
+}
+
+.social-icon {
+  width: 3rem;
+}
