@@ -35,7 +35,7 @@ body {
 }
 
 .bg-figure {
-  width: 56rem;
+  width: 60rem;
   height: 50rem;
   background-color: #0e7490;
   transform: rotate(-45deg);
@@ -49,7 +49,8 @@ body {
   padding: 0 2.6rem;
 }
 
-.about__title {
+.about__title,
+.projects__title {
   font-family: 'Playfair Display', serif;
   font-weight: 400;
   font-size: 3.4rem;
@@ -74,4 +75,14 @@ body {
 
 .projects {
   padding: 0 2.6rem;
+}
+
+.projects__title {
+  margin-top: 5rem;
+}
+
+.project-card {
+  border: 1px solid red;
+  border-radius: 0.6rem;
+  padding: 1rem;
 }
