@@ -78,11 +78,45 @@ body {
 }
 
 .projects__title {
-  margin-top: 5rem;
+  margin: 5rem 0 3rem 0;
+}
+
+.projects__container {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
 }
 
 .project-card {
-  border: 1px solid red;
-  border-radius: 0.6rem;
-  padding: 1rem;
+  background-color: white;
+  padding-bottom: 2rem;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+
+.project-top {
+  display: flex;
+  margin: 0 2rem;
+  justify-content: space-between;
+}
+
+.project__name {
+  margin: 1rem 0;
+  font-size: 1.8rem;
+  font-family: 'Playfair Display', serif;
+  font-weight: 500;
+}
+
+.project__links {
+  display: flex;
+  gap: 1rem;
+}
+
+.project-link {
+  width: 2rem;
+}
+
+.project__description {
+  margin: 0 2rem;
+  font-size: 1.3rem;
+  color: #5c5b5b;
 }
