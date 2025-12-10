@@ -63,10 +63,19 @@ body {
 }
 
 .about__social-container {
+  margin: 1rem 0 3rem 0;
   display: flex;
   justify-content: center;
   gap: 2rem;
-  margin: 1rem auto;
+}
+
+.social-link {
+  padding: 0.5rem 0.6rem;
+  border-radius: 0.6rem;
+}
+
+.social-link:hover {
+  background-color: #b6b6b6;
 }
 
 .social-icon {
@@ -77,14 +86,11 @@ body {
   padding: 0 2.6rem;
 }
 
-.projects__title {
-  margin: 5rem 0 3rem 0;
-}
-
 .projects__container {
   display: flex;
   flex-direction: column;
   gap: 3rem;
+  padding: 6rem 0;
 }
 
 .project-card {
