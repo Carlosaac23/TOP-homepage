@@ -108,15 +108,26 @@ body {
 
 .project__links {
   display: flex;
-  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.6rem;
 }
 
 .project-link {
+  padding: 0.5rem 0.4rem;
+  border-radius: 0.6rem;
+}
+
+.project-link:hover {
+  background-color: #ededed;
+}
+
+.project-cap {
   width: 2rem;
 }
 
 .project__description {
   margin: 0 2rem;
-  font-size: 1.3rem;
+  font-size: 1.375rem;
   color: #5c5b5b;
 }
