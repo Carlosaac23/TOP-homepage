@@ -2,7 +2,8 @@
 
 :root {
   --primary-bg: #e5e5e5;
-  --secondary-bg: #0e7490;
+  --secondary-bg: #0891b2;
+  --secondary-darker-bg: #155e75;
   --foreground: #171717;
   --white: #fafafa;
   --gray: #525252;
@@ -166,6 +167,19 @@ body {
 .footer__links {
   display: flex;
   justify-content: center;
-  gap: 1rem;
+  gap: 2rem;
   margin: 1rem 0 4rem 0;
+}
+
+.footer__social-icon {
+  width: 4rem;
+}
+
+.footer__social-link {
+  padding: 0.5rem 0.4rem;
+  border-radius: 0.6rem;
+}
+
+.footer__social-link:hover {
+  background-color: var(--secondary-darker-bg);
 }
