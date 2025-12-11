@@ -183,3 +183,9 @@ body {
 .footer__social-link:hover {
   background-color: var(--secondary-darker-bg);
 }
+
+@media screen and (min-width: 767px) {
+}
+
+@media screen and (min-width: 1200px) {
+}
