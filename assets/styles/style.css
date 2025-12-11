@@ -239,6 +239,14 @@ body {
 }
 
 @media screen and (min-width: 1200px) {
+  .header__img {
+    height: 40rem;
+  }
+
+  .about {
+    margin: 0 20rem;
+  }
+
   .projects__container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
