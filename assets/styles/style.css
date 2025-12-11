@@ -243,4 +243,30 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
   }
+
+  .footer {
+    justify-content: space-between;
+  }
+
+  .footer__title {
+    font-size: 4rem;
+  }
+
+  .footer__text {
+    font-size: 1.8rem;
+  }
+
+  .footer address {
+    font-size: 1.4rem;
+  }
+
+  .footer__phone,
+  .footer__email {
+    font-size: 1.4rem;
+  }
+
+  .footer__img-bg {
+    max-width: 20%;
+    height: auto;
+  }
 }
